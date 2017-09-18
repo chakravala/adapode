@@ -1,0 +1,36 @@
+0 -50 -50 -50
+0 50 50 50
+1 10 5 5
+0 0.01
+6
+35
+d
+time, x1, x2, x3
+
+# adapode, Copyright (C) 2013 Michael Reed
+
+# Initial Conditions
+# Integration Interval
+# Decimal place tolerance (integer)
+# ODE Solver Method ID to use
+
+# ODE Solver ID Table
+#  1 = Explicit Euler Method
+#  2 = Implicit Euler Method
+#  3 = Heun's Method (Improved Euler)
+#  4 = Midpoint 2nd Order RK Method
+#  5 = Kutta's 3rd Order RK Method
+#  6 = Classical 4th Order RK Method
+# 11 = Adaptive Heun-Euler Method
+# 12 = Adaptive Bogacki-Shampine RK23 Method
+# 13 = Adaptive Fehlberg RK45 Method
+# 14 = Adaptive Cash-Karp RK45 Method
+# 15 = Adaptive Dormand-Prince RK45 Method
+# 22 = Multistep Adams-Bashforth-Moulton 2nd Order
+# 23 = Multistep Adams-Bashforth-Moulton 3rd Order
+# 24 = Multistep Adams-Bashforth-Moulton 4th Order
+# 25 = Multistep Adams-Bashforth-Moulton 5th Order
+# 32 = Adaptive Multistep ABM 2nd Order
+# 33 = Adaptive Multistep ABM 3rd Order
+# 34 = Adaptive Multistep ABM 4th Order
+# 35 = Adaptive Multistep ABM 5th Order
